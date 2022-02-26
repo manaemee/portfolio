@@ -105,6 +105,10 @@ main {
         align-items: center;
         text-align: start;
         margin-bottom: 20px;
+        a {
+          color: red;
+          font-weight: 800;
+        }
         h4 {
           font-size: 28px;
           text-transform: uppercase;
@@ -125,5 +129,8 @@ main {
     width: 40%;
     box-shadow: 0 80px 80px -80px #000, 0 0 12px rgba(0, 0, 0, 0.06),
       inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+  }
+  .video-share {
+    width: 60%;
   }
 }
