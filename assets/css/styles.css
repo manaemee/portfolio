@@ -138,7 +138,8 @@ table {
 
 body {
   height: 100vh;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: #341d0e;
 }
 body a {
@@ -207,7 +208,15 @@ main {
   margin-left: 33%;
 }
 main .work {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 20%, transparent, transparent, transparent, transparent) #fcb138;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) 20%,
+      transparent,
+      transparent,
+      transparent,
+      transparent
+    )
+    #fcb138;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -250,7 +259,8 @@ main .wrapper .work__header .work__header__colomn:last-child h3 {
 }
 main img {
   width: 40%;
-  box-shadow: 0 80px 80px -80px #000, 0 0 12px rgba(0, 0, 0, 0.06), inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 80px 80px -80px #000, 0 0 12px rgba(0, 0, 0, 0.06),
+    inset 0 0 0 1px rgba(0, 0, 0, 0.2);
 }
 main .video-share {
   width: 60%;
