@@ -170,6 +170,7 @@ header h3 {
   font-size: 21px;
   font-weight: 300;
   margin-bottom: 20px;
+  line-height: 150%;
 }
 header h3,
 header p {
@@ -256,6 +257,9 @@ main .wrapper .work__header .work__header__colomn:first-child h5 {
 }
 main .wrapper .work__header .work__header__colomn:last-child h3 {
   letter-spacing: 2px;
+  margin-bottom: 10px;
+  color: black;
+  font-weight: 700;
 }
 main img {
   width: 40%;
@@ -264,4 +268,18 @@ main img {
 }
 main .video-share {
   width: 60%;
+}
+@media screen and (max-width: 1260px) {
+  header h1 {
+    font-size: 30px;
+  }
+  header nav ul {
+    display: flex;
+    overflow: auto;
+  }
+}
+@media screen and (max-width: 835px) {
+  header h1 {
+    font-size: 8px;
+  }
 }
